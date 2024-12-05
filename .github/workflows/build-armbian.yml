@@ -78,6 +78,7 @@ on:
 
 env:
   TZ: America/New_York
+  KERNEL_TAGS: "stable"
   ROOTFS_SCRIPT: compile-kernel/tools/script/armbian_rootfs.sh
 
 jobs:
